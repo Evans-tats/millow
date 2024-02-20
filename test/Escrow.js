@@ -10,6 +10,7 @@ describe('Escrow', () => {
     let buyer, seller, inspector, lender
 
     beforeEach(async () => {
+        //set up accounts
         [buyer, seller, inspector, lender] =await ethers.getSigners()
 
 
